@@ -153,20 +153,42 @@ footer {
   padding: 2rem;
 }
 
-.contenido {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1320px;
-  font-size: medium;
-}
-
-.imagCrecer {
-  text-align: center;
-}
-
 .video {
   text-align: center;
 }
 .imagenCamillas {
   text-align: center;
+}
+
+.contenido {
+  color: white;
+  background-image: url(https://images.pexels.com/photos/5366526/pexels-photo-5366526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  padding: 10rem 0 0;
+  height: 50vh;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card :hover,
+.card :focus-within {
+  transform: scale(1.05);
+}
+
+.pcont {
+  padding: 1.5rem;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+  transform: translateY(65%);
+  transition: transform 500ms ease;
+}
+
+.contenido:hover .pcont {
+  transform: translateY(0);
+  transition-delay: 500ms;
+}
+
+.titulo {
+  text-align: center;
+  font-size: xx-large;
 }
