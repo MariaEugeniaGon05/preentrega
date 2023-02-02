@@ -93,6 +93,13 @@ footer {
   }
 }
 @media (max-width: 600px) {
+  header {
+    width: 95%;
+  }
+  .primary-section {
+    margin-top: 10%;
+    font-size: 18px;
+  }
   label {
     visibility: visible;
     opacity: 1;
@@ -114,6 +121,8 @@ footer {
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .servicio {
@@ -123,6 +132,14 @@ footer {
   border: 1px solid black;
   border-radius: 1rem;
   padding: 2rem;
+}
+
+.servicioTitulo {
+  font-size: 20px;
+}
+
+.servicioDescrip {
+  font-size: 18px;
 }
 
 .imagSer {
@@ -139,6 +156,7 @@ footer {
   border-radius: 1rem;
   font-size: 1.2rem;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .logo {
@@ -155,9 +173,11 @@ footer {
 
 .video {
   text-align: center;
+  margin-top: 15%;
 }
 .imagenCamillas {
   text-align: center;
+  width: 100%;
 }
 
 .contenido {
