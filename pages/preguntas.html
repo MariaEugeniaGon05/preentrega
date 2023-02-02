@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pagina web</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon1.png"
+      type="image/x-icon"
+    />
+    <script
+    src="https://kit.fontawesome.com/86c401e286.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="./index.html"
+          ><img class="logo" src="./images/logo.png" alt="logoAtenea"
+        /></a>
+        <a href="#" class="logo">
+          <span>ATENEA</span>
+      </div>
+        <input type="checkbox" id="menu-bar" />
+        <label for="menu-bar" class="fa fa-bars"></label>
+
+        <nav class="navbar">
+          <ul class="navList">
+            <li class="navItem">
+              <a class="nav_link" href="./servicios.html">servicios</a>
+            </li>
+            <li class="navItem">
+              <a class="nav_link" href="../index.html">inicio</a>
+            </li>
+            <li class="navItem">
+              <a class="nav_link" href="./ayuda.html">ayuda</a>
+            </li>
+            <li class="navItem">
+              <a class="nav_link" href="./nosotros.html">nosotros</a>
+            </li>
+            <li class="navItem">
+              <a class="nav_link" href="./preguntas.html">preguntas</a>
+            </li>
+          </ul>
+        </nav>
+      </a>
+    </header>
+    <main>
+      <section>
+        <fieldset>
+          <legend class="tituloPre">En que te podemos ayudarte</legend>
+          <form action="">
+            <div>
+              <legend>Cual es tu nombre</legend>
+              <label for="">Nombre</label>
+              <input type="text" name="nombre" id="nombre" />
+              <label for="">Apellido</label>
+              <input type="text" name="apellido" id="apellido" />
+            </div>
+            <div>
+              <legend>Cual es tu sexo?</legend>
+              <label for="sexo">Femenino</label>
+              <input type="radio" name="sexo" value="femenino" />
+              <label for="sexo">Masculino</label>
+              <input type="radio" name="sexo" value="masculino" />
+            </div>
+            <div>
+              <label for="servicio">Sobre que servicio es tu consulta</label>
+              <select name="servicio" id="servicio">
+                <option value="Nada">---</option>
+                <option value="Masajes">Masajes</option>
+                <option value="Cuenco Tibetano">Cuenco tibetano</option>
+                <option value="Reiki">Sesion de reiki</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+            <div>
+              <label for="mensaje">Cuentanos cual es tu consulta</label>
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div>
+              <input class="buttom" type="submit" value="enviar" />
+              <input class="buttom" type="reset" value="borrar" />
+            </div>
+          </form>
+        </fieldset>
+      </section>
+    </main>
+    <footer>
+      <div>Buscanos en las redes</div>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#"><i class="fa-regular fa-envelope"></i></a>
+    </footer>
+  </body>
+</html>
