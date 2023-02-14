@@ -14,58 +14,95 @@
     rel="shortcut icon"
     href="./images/favicon1.png"
     type="image/x-icon"/>
-  </head>
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/css/bootstrap.css">
+</head>
   <body>
     <header>
-      <div>
-        <a href="./index.html"
-          ><img class="logo" src="./images/logo.png" alt="logoAtenea"
-        /></a>
-        <a href="#" class="logo">
-          <span>ATENEA</span>
-        </a>
-      </div>
-        <input type="checkbox" id="menu-bar" />
-        <label for="menu-bar" class="fa fa-bars"></label>
-
-        <nav class="navbar">
-          <ul class="navList">
-            <li class="navItem">
-              <a class="nav_link" href="./pages/servicios.html">servicios</a>
-            </li>
-            <li class="navItem">
-              <a class="nav_link" href="./index.html">inicio</a>
-            </li>
-            <li class="navItem">
-              <a class="nav_link" href="./pages/ayuda.html">ayuda</a>
-            </li>
-            <li class="navItem">
-              <a class="nav_link" href="./pages/nosotros.html">nosotros</a>
-            </li>
-            <li class="navItem">
-              <a class="nav_link" href="./pages/preguntas.html">preguntas</a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <ul class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Atenea</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/servicios.html">servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./pages/ayuda.html">ayuda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/nosotros.html">nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/preguntas.html">preguntas</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
         </nav>
     </header>
-  </header>
-  <main>
-    <article>
-      <div class="contenido">
-        <h1 class="titulo" >Atenea</h1>
-        <p class="pcont" >  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea aliquam
-          excepturi deserunt. Velit neque fugiat possimus pariatur ipsam,
-          nostrum, eum in dolores inventore sapiente id dolor, quisquam aliquid
-          itaque at?</p>
+    <main>
+      <article>
+         <div class="container-fluid p-5 bg-danger text-white text-center">
+            <h1 class="text-uppercase fst-italic">Atenea</h1>
+            <p class="fst-normal text-lowercased">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea aliquam
+              excepturi deserunt. Velit neque fugiat possimus pariatur ipsam,
+              nostrum, eum in dolores inventore sapiente id dolor, quisquam aliquid
+              itaque at?
+            </p>
+          </div>
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col-sm-4 text-center">
+                <h2>Piedras</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus repellendus maiores dolorum hic dolor pariatur eius illum, error earum fugiat nobis ipsa. Animi, repudiandae voluptas! Repellendus nisi perspiciatis nam quisquam!</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <h2>Masajes</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, aperiam! Possimus nihil consequatur sed veritatis rerum explicabo labore assumenda non, iste sapiente beatae eius animi incidunt ipsum odio rem distinctio.</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <h2>Cuencos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, nisi. Eligendi neque maiores eos nemo, dolores obcaecati similique assumenda culpa, exercitationem, voluptate in necessitatibus eius fugiat provident fuga soluta unde.</p>
+              </div>
+            </div>
+          </div>
+      </article>
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="text-muted">© 2023 Company, Inc</span>
       </div>
-    </article>
-  </main>
-  <footer>
-    <div>Buscanos en las redes</div>
-    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-    <a href="#"><i class="fa-regular fa-envelope"></i></a>
-  </footer>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="fa-brands fa-instagram" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
+        <li class="fa-brands fa-whatsapp" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
+        <li class="fa-regular fa-envelope" href="#"><svg class="bi" width="24" height="24"></svg></a></li>
+      </ul>
+    </footer>
+  <script src="bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/js/bootstrap.js"></script>
   <script
   src="https://kit.fontawesome.com/86c401e286.js"
   crossorigin="anonymous"
