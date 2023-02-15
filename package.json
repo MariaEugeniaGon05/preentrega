@@ -1,0 +1,20 @@
+{
+  "name": "segunda-prentrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch sass:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaEugeniaGon05/preentrega.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaEugeniaGon05/preentrega/issues"
+  },
+  "homepage": "https://github.com/MariaEugeniaGon05/preentrega#readme"
+}
