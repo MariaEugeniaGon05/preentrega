@@ -12,7 +12,11 @@
 }
 
 .video {
-  text-align: center;
+  align-items: center;
+}
+
+.fondo {
+  background-color: #d24dff;
 }
 
 /*# sourceMappingURL=style.css.map */
