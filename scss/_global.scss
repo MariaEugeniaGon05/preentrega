@@ -5,16 +5,24 @@
   right: 10px;
   bottom: 10px;
 }
-
 .logo {
   position: relative;
   width: 10%;
   text-decoration: none;
 }
-
-.video {
-  align-items: center;
-}
-.fondo {
-  background-color: $color-fondo;
+.contenido {
+  background-color: $color-contenido;
+  .fondo {
+    background-color: $color-fondo;
+  }
+  .cuestionario {
+    text-align: center;
+  }
+  .video {
+    text-align: center;
+  }
+  .secciones {
+    background-color: white;
+    padding: 2rem;
+  }
 }

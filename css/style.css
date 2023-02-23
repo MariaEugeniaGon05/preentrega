@@ -11,12 +11,21 @@
   text-decoration: none;
 }
 
-.video {
-  align-items: center;
+.contenido {
+  background-color: #b3b3b3;
 }
-
-.fondo {
+.contenido .fondo {
   background-color: #d24dff;
+}
+.contenido .cuestionario {
+  text-align: center;
+}
+.contenido .video {
+  text-align: center;
+}
+.contenido .secciones {
+  background-color: white;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

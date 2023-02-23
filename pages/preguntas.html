@@ -16,7 +16,7 @@
      <meta name="description" content="sitio de preguntas para evacuar tus dudas sobre nuestros servicios o lo que desee">
      <meta name="keywords" content="reiki, atenea, preguntas, dudas, montevideo">
   </head>
-  <body>
+  <body class="contenido">
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <ul class="container-fluid">
@@ -64,41 +64,53 @@
           </div>
         </nav>
     </header>
-    <main class="secciones">
+    <main>
       <section>
           <legend class="container-fluid p-4 fondo text-white text-center text-uppercase fw-bold" >En que podemos ayudarte</legend>
-          <form action="">
-            <div class="row ms-3 p-2">
-              <legend class="text-center">Como es tu nombre</legend>
-              <label for="">Nombre</label>
-              <input class="col-sm-6" type="text" name="nombre" id="nombre" />
-              <label for="">Apellido</label>
-              <input class="col-sm-6"  type="text" name="apellido" id="apellido" />
-            </div>
-            <div class="row ms-3 p-2 " >
-              <label for="servicio">Sobre que servicio es tu consulta</label>
-              <select class="col-sm-6" name="servicio" id="servicio">
-                <option value="Nada">---</option>
-                <option value="Masajes">Masajes</option>
-                <option value="Cuenco Tibetano">Cuenco tibetano</option>
-                <option value="Reiki">Sesion de reiki</option>
-                <option value="Otro">Otro</option>
-              </select>
-            </div>
-            <div class="row ms-3 p-2 ">
-              <label for="mensaje">Cuentanos cual es tu consulta</label>
-              <textarea class="col-sm-6"
-                name="mensaje"
-                id="mensaje"
-                cols="30"
-                rows="10"
-              ></textarea>
-            </div>
-            <div>
-              <input class="buttom ms-3" type="submit" value="enviar" />
-              <input class="buttom ms-2" type="reset" value="borrar" />
-            </div>
-          </form>
+          <div class="secciones">
+            <div class="cuestionario">
+              <form action="">
+              <div class="row ms-3 p-2">
+                <legend class="text-center">Como es tu nombre</legend>
+                <label for="">Nombre</label>
+                <div>
+                  <input class="col-sm-6" type="text" name="nombre" id="nombre" />
+                </div>
+                <label for="">Apellido</label>
+                <div>
+                  <input class="col-sm-6"  type="text" name="apellido" id="apellido" />
+                </div>
+              </div>
+              <div class="row ms-3 p-2 " >
+                <label for="servicio">Sobre que servicio es tu consulta</label>
+                <div>
+                  <select class="col-sm-6" name="servicio" id="servicio">
+                    <option value="Nada">---</option>
+                    <option value="Masajes">Masajes</option>
+                    <option value="Cuenco Tibetano">Cuenco tibetano</option>
+                    <option value="Reiki">Sesion de reiki</option>
+                    <option value="Otro">Otro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row ms-3 p-2 ">
+                <label for="mensaje">Cuentanos cual es tu consulta</label>
+                <div>
+                  <textarea class="col-sm-6"
+                  name="mensaje"
+                  id="mensaje"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+                </div>
+              </div>
+              <div>
+                <input class="buttom ms-3" type="submit" value="enviar" />
+                <input class="buttom ms-2" type="reset" value="borrar" />
+              </div>
+            </form>
+          </div>
+          </div>
       </section>
     </main>
     <a class="logoWpp" href="https://web.whatsapp.com/" target="_blank">
