@@ -18,11 +18,16 @@
   .cuestionario {
     text-align: center;
   }
-  .video {
-    text-align: center;
-  }
   .secciones {
     background-color: white;
     padding: 2rem;
+  }
+}
+.video {
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .video {
+    width: 340px;
   }
 }

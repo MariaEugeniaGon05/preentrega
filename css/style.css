@@ -20,12 +20,19 @@
 .contenido .cuestionario {
   text-align: center;
 }
-.contenido .video {
-  text-align: center;
-}
 .contenido .secciones {
   background-color: white;
   padding: 2rem;
+}
+
+.video {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .video {
+    width: 340px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
